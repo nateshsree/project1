@@ -1,4 +1,5 @@
-- hosts: hostB
+- name: Patch OS playbook
+  hosts: all
   tasks:
       - name: Create file
         file:
